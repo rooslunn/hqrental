@@ -7,7 +7,7 @@
   ```
 * Enjoy via Postman or curl
   ```bash
-  http://localhost:8000/api/v1/posts  // if using artisan serve
+  http://localhost:8000/api/v1/products  // if using "php artisan serve"
   ```  
 
 # api-requirements
