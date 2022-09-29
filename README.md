@@ -8,9 +8,11 @@
 * Install dependencies 
   ```bash
   composer install 
-* Enjoy via Postman or curl
+* Enjoy via Postman or curl (eg. if using dev server)
   ```bash
-  http://localhost:8000/api/v1/products  // if using "php artisan serve"
+  http://localhost:8000/api/v1/products
+  http://localhost:8000/api/v1/products?filter[categoty][]=vehicle  // filter by category 
+  http://localhost:8000/api/v1/products?filter[price][]=100000  // filter by price <== value 
   ```  
 
 # api-requirements
