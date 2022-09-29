@@ -5,6 +5,9 @@
   ```bash
   $ php artisan migrate:refresh --seed
   ```
+* Install dependencies 
+  ```bash
+  composer install 
 * Enjoy via Postman or curl
   ```bash
   http://localhost:8000/api/v1/products  // if using "php artisan serve"
