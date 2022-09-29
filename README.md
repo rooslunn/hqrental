@@ -1,7 +1,7 @@
 # How to use
 * Create Database
 * Set credentials in .env
-* Runs migrations and seeder (it'll load test data):
+* Run migrations and seeder (it'll load test data):
   ```bash
   $ php artisan migrate:refresh --seed
   ```
