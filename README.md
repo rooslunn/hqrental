@@ -1,3 +1,15 @@
+# How to use
+* Create Database
+* Set credentials in .env
+* Runs migrations and seeder (it'll load test data):
+  ```bash
+  $ php artisan migrate:refresh --seed
+  ```
+* Enjoy via Postman or curl
+  ```bash
+  http://localhost:8000/api/v1/posts  // if using artisan serve
+  ```  
+
 # api-requirements
 
 ## Description
